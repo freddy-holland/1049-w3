@@ -1,6 +1,5 @@
-from abstract_stack import Stack
-from referential_array import ArrayR, T
-
+from stack.abstract_stack import Stack
+from queue.referential_array import ArrayR, T
 
 class ArrayStack(Stack[T]):
 
